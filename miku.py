@@ -53,7 +53,7 @@ async def type_and_send(message):
 @miku.on_message(filters.command("repo") & ~filters.edited)
 async def repo(_, message):
     await message.reply_text(
-        "[GitHub](https://github.com/yourusername/miku_chat_robot)"
+        "[GitHub](https://github.com/iSabbir/miku-chat-bot)"
         + " | [Support Group](t.me/your_support_group)",
         disable_web_page_preview=True,
     )
